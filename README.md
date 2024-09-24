@@ -1,5 +1,5 @@
 # DEGEN-TOKEN
-The DegenToken is an ERC20 token deployed on the Avalanche Fuji Testnet. This smart contract allows users to mint, transfer, burn, and redeem tokens in exchange for game items. The token is designed for use within gaming environments, where players can redeem predefined game items using their Degen Tokens.
+The DegenToken is an ERC20 token deployed on the Avalanche Fuji Testnet. This smart contract allows users to mint, transfer, burn, and redeem tokens(in exchange for game items) .The token is designed for use within gaming environments, where players can redeem game items using their Degen Tokens.
 
 ## Description
 DegenToken is an ERC20-compliant token built on the Ethereum blockchain. The contract allows users to mint tokens, transfer them between accounts, burn tokens when redeeming them for game items, and check their token balance. The primary function of the token is for redeeming various game items such as weapons, armor, and potions within a game.
@@ -8,14 +8,13 @@ DegenToken is an ERC20-compliant token built on the Ethereum blockchain. The con
 - **Minting**: Only the contract owner can mint new tokens.
 - **Burnable**: Tokens can be burned when they are redeemed for game items.
 - **Transferable**: Users can transfer tokens between their accounts.
-- **Fixed-Point (0 Decimals)**: Tokens are whole units, without fractional parts.
 - **Redeemable**: Users can exchange tokens for game items at predefined prices.
 
 ### **Game Items Available for Redemption:**
-1. Epic Sword (100 DGN)
-2. Legendary Armor (200 DGN)
+1. Excalibur (100 DGN)
+2. Dragon Armor (200 DGN)
 3. Magic Potion (50 DGN)
-4. Dragon Mount (300 DGN)
+4. Hammer of Thor (300 DGN)
 
 ## Getting Started
 
@@ -54,7 +53,8 @@ To add the Avalanche Fuji Testnet to MetaMask, use the following network details
 4. **Currency Symbol**: AVAX
 5. **Explorer URL**: [https://testnet.snowtrace.io/](https://testnet.snowtrace.io/)
 
-### Free Testnet AVAX Faucet:
-Get test AVAX tokens for gas fees from the following faucet:
-```plaintext
-https://faucets.chain.link/
+## Auther:
+ANKIT SINGH
+(mail:`superakt2003@gmail.com`)
+
+
