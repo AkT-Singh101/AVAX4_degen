@@ -53,7 +53,7 @@ To add the Avalanche Fuji Testnet to MetaMask, use the following network details
 4. **Currency Symbol**: AVAX
 5. **Explorer URL**: [https://testnet.snowtrace.io/](https://testnet.snowtrace.io/)
 
-## Auther:
+## Author:
 ANKIT SINGH
 (mail:`superakt2003@gmail.com`)
 
