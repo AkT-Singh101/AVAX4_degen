@@ -8,7 +8,7 @@ DegenToken is an ERC20-compliant token built on the Ethereum blockchain. The con
 - **Minting**: Only the contract owner can mint new tokens.
 - **Burnable**: Tokens can be burned when they are redeemed for game items.
 - **Transferable**: Users can transfer tokens between their accounts.
-- **Redeemable**: Users can exchange tokens for game items at predefined prices.
+- **Redeemable**: Users can exchange tokens for game items at predefined prices. User can also see the items redeemed by an account
 
 ### **Game Items Available for Redemption:**
 1. Excalibur (100 DGN)
