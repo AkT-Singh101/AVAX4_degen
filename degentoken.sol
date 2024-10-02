@@ -20,7 +20,6 @@ contract DegenToken is ERC20, ERC20Burnable, Ownable {
         ERC20("DegenToken", "DGN")
         Ownable(initialOwner)
     {
-        // Adding game items and their prices in tokens
         _gameItems.push(GameItem("Excalibur", 200));
         _gameItems.push(GameItem("Dragon Armor", 150));
         _gameItems.push(GameItem("Magic Potion", 50));
@@ -31,21 +30,14 @@ contract DegenToken is ERC20, ERC20Burnable, Ownable {
         require(itemId < _gameItems.length, "Item does not exist");
         uint256 price = _gameItems[itemId].price;
         require(balanceOf(msg.sender) >= price, "Insufficient balance");
-
         // Burn tokens in exchange for the game item
         _burn(msg.sender, price);
-
-        // Record the redemption
         redeemedItems[msg.sender][itemId]++;
-
-        // Emit a log of redemption
         emit Redeemed(msg.sender, _gameItems[itemId].name, price);
     }
 
-    // Event to log the redemption of items
     event Redeemed(address indexed user, string item, uint256 amount);
 
-    // Function to mint new tokens
     function mint(address to, uint256 amount) public onlyOwner {
         _mint(to, amount);
     }
